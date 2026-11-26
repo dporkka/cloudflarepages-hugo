@@ -9,4 +9,4 @@ Content goes here.
 
 Navigation:
 - [Back to Topic 1](../)
-- [Previous: Subtopic 1.1](../subtopic1)
+- [Previous: Subtopic 1.1](../subtopic1/)

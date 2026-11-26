@@ -1,4 +1,4 @@
 baseURL = '/'
-languageCode = 'en-us'
+locale = 'en-US'
 title = 'Edit this is hugo.toml'
 theme = 'book'
