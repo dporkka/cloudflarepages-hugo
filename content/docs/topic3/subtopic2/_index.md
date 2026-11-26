@@ -9,5 +9,5 @@ Content goes here.
 
 Navigation:
 - [Back to Topic 3](../)
-- [Previous: Subtopic 3.1](../subtopic1)
-- [Back to Topic 1](/topic1)
+- [Previous: Subtopic 3.1](../subtopic1/)
+- [Back to Topic 1]({{< relref "docs/topic1/_index.md" >}})

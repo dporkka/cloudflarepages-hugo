@@ -6,7 +6,7 @@ This repository contains a Hugo-based documentation site template that's ready t
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/taslabs-net/timsnotes.git
+git clone --recurse-submodules https://github.com/YOUR-USER/cloudflarepages-hugo.git
 ```
 
 2. Deploy to Cloudflare Pages:
@@ -15,9 +15,9 @@ git clone https://github.com/taslabs-net/timsnotes.git
    - Choose "Pages"
    - Select your cloned repository that you just made
    - Use these build settings:
-     - Build command: `hugo`
+     - Build command: `git submodule update --init --recursive && hugo --minify`
      - Build directory: `public`
-     - Environment variable: `HUGO_VERSION`: `0.139.3`
+     - Environment variable: `HUGO_VERSION`: `0.170.0`
 
 That's it! Your site will be live at `[your-project].pages.dev`
 
@@ -103,7 +103,7 @@ def hello_world():
 #### Links
 ```md
 # Internal Links
-- [Link to Topic 1](/topic1)
+- [Link to Topic 1](/docs/topic1/)
 - [Link to Subtopic](../subtopic1)
 - [Relative link to sibling page](./another-page)
 
